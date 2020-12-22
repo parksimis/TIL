@@ -11,21 +11,21 @@
 
 1. [Git (독학 - Git from the hell)](https://github.com/parksimis/Git.git)
 
-> 참고 사이트 : [생활코딩 버전관리의 본질](https://www.opentutorials.org/course/2708/15242)
-
-* [Git basic](https://github.com/parksimis/Git/blob/master/2020-03-13-Git_Basic.md)
-
-* [Git Log](https://github.com/parksimis/Git/blob/master/2020-03-14%20Git_Log.md)
-
-* [Git Remote](https://github.com/parksimis/Git/blob/master/2020-03-15%20Git_Remote.md)
-
+   >  참고 사이트 : [생활코딩 버전관리의 본질](https://www.opentutorials.org/course/2708/15242)
+   
+   * [Git basic](https://github.com/parksimis/Git/blob/master/2020-03-13-Git_Basic.md)
+   
+   * [Git Log](https://github.com/parksimis/Git/blob/master/2020-03-14%20Git_Log.md)
+   
+   * [Git Remote](https://github.com/parksimis/Git/blob/master/2020-03-15%20Git_Remote.md)
+   
 2. [Git(Multicampus)](./git)
 
-* [git basic](./git/2020-12-22_01git basic.md)
+   * [git basic](TIL/git/2020-12-22_01git basic.md)
 
-* [git remote](./git/2020-12-22_02git remote.md)
+   * [git remote](TIL/git/2020-12-22_02git remote.md)
 
-* [git status](./git/2020-12-22_03git status.md)
+   * [git status](TIL/git/2020-12-22_03git status.md)
 
 
 
