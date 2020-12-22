@@ -9,8 +9,15 @@
 
 ### Git
 
-* [git(독학)](https://github.com/parksimis/Git)
-* [git(Multicampus)](./git)
+1. [Git (독학 - Git from the hell)](https://github.com/parksimis/Git.git)
+   1. [Git basic](https://github.com/parksimis/Git/blob/master/2020-03-13-Git_Basic.md)
+   2. [Git Log](https://github.com/parksimis/Git/blob/master/2020-03-14%20Git_Log.md)
+   3. [Git Remote](https://github.com/parksimis/Git/blob/master/2020-03-15%20Git_Remote.md)
+
+2. [git(Multicampus)](./git)
+   1. [git basic](./git/2020-12-22_01git basic.md)
+   2. [git remote](./git/2020-12-22_02git remote.md)
+   3. [git status](./git/2020-12-22_03git status.md)
 
 
 
