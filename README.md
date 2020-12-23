@@ -21,10 +21,10 @@
    
 2. [Git(Multicampus)](./git)
 
-   * [git basic](./git/2020-12-22_01git%20basic.md)
+   * [git basic](./git/2020-12-22-git-basic.md)
    
-   * [git remote](./git/2020-12-22_02git%20remote.md)
-   * [git status](./git/2020-12-22_03git%20status.md)
+   * [git remote](./git/2020-12-22-git-remote.md)
+   * [git status](./git/2020-12-22-git-status.md)
 
 
 
