@@ -24,8 +24,8 @@
    * [git basic](./git/2020-12-22-git-basic.md)
    * [git remote](./git/2020-12-22-git-remote.md)
    * [git status](./git/2020-12-22-git-status.md)
-   * [gitignore](./git/2012-12-23-gitignore.md)
-   
+   * [gitignore](./git/2020-12-23-gitignore.md)
+   * [pusherror](./git/2020-12-23-pusherror.md)
    
 
 ### 기타
