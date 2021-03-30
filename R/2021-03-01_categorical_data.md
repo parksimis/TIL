@@ -308,3 +308,54 @@ X-squared = 7.8, df = 5, p-value = 0.1676
 * 관측값들이 정해진 범주 내에서 서로 비슷하게 나타나고 있는지를 검정
 * 속성 A, B를 가진 부모집단(subpopulation) 각가으로부터 정해진 표본의 크기만큼 자료를 추출하는 경우에 분할표에서 부모집단의 비율이 동일한가를 검정. 두 개의 요인을 대상으로 함.
 
+
+
+
+
+### - Fisher의 정확성 검정(Fisher's Exact Test)
+
+* 2X2 교차표에서 기대빈도가 5보다 작은 셀이 20% 이상인 경우, 카이제곱 검정 대신 **피셔의 정확검정** 수행이 좋음
+* mariginal 빈도가 주어진 상황에서 **셀의 빈도 + 확률을, 모든 가능한 경우의 수에 대해 계산**해 두 변수가 관련성이 없다는 귀무가설 하에서 셀에 들어갈 값이 실제 관측된 값이 실제 관측된 값보다 작거나 혹은 같은 경우가 나올 확률을 구함.
+
+* 모든 경우의 수를 계산해야 하다 보니 범주가 많은 경우 시간이 오래걸림.
+
+* 사용 예시 
+  * vcd::Arthritis 데이터셋
+  * H0 : 치료와 개선여부 변수는 독립적이다.
+
+```R
+> library(vcd)
+> # 빈도표 작성(처치에 따른 개선효과 이원분할표)
+> mytable <- xtabs(~Treatment+Improved, data=Arthritis)
+> mytable
+         Improved
+Treatment None Some Marked
+  Placebo   29    7      7
+  Treated   13    7     21
+
+> # 카이제곱 검정 수행
+> ch <- chisq.test(mytable, correct=F)
+> ch 
+
+	Pearson's Chi-squared test
+
+data:  mytable
+X-squared = 13.055, df = 2, p-value = 0.001463
+
+> # 기대값 산출
+> ch$expected
+         Improved
+Treatment None     Some   Marked
+  Placebo 21.5 7.166667 14.33333
+  Treated 20.5 6.833333 13.66667
+
+> # 피셔의 정확 검정 수행
+> fisher.test(mytable)
+
+	Fisher's Exact Test for Count Data
+
+data:  mytable
+p-value = 0.001393
+alternative hypothesis: two.sided
+```
+
