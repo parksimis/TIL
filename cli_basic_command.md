@@ -1,5 +1,6 @@
 ```bash
 
+# conda에서 새 가상환경 
 # 새 가상환경 만들기(이름 test)
 conda create -n test
 
