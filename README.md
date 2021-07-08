@@ -1,13 +1,12 @@
 # TIL
+
 > Today I Learned
 >
 > 매일 배운 내용 기록하기
 
 
 
-## 내용
-
-### Git
+## - Git
 
 1. [Git (독학 - Git from the hell)](https://github.com/parksimis/Git.git)
 
@@ -29,8 +28,18 @@
    * [branch](./git/2020-12-23-branch.md)
    * [branchscenario](./git/2020-12-23-branchscenario.md)
    * [gitundoing](./git/2020-12-23-gitundoing.md)
-   
 
-### 기타
+
+
+## - Python
+
+* [Python_basic](https://github.com/parksimis/TIL/blob/master/Python/2020-12-28_Python_basic01.md)
+* [Variable](https://github.com/parksimis/TIL/blob/master/Python/2021-01-06_Variable.md)
+* [Variadic_arguments](https://github.com/parksimis/TIL/blob/master/Python/2021-01-06_Variadic_arguments.md)
+* [Numpy](https://github.com/parksimis/TIL/tree/master/Python/Numpy)
+
+
+
+## - 기타
 
 * [마크다운 기초 문법](./markdown.md)
