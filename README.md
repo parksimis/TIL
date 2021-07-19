@@ -42,13 +42,13 @@
 
 ## - Database
 
-* [CREATE, ALTER](https://github.com/parksimis/TIL/blob/master/Database/2021-01-14_CREATE%2C ALTER.md)
+* [CREATE, ALTER](https://github.com/parksimis/TIL/blob/master/Database/2021-01-14_CREATE%2C%20ALTER.md)
 * [MariaDB_Installation](https://github.com/parksimis/TIL/blob/master/Database/2021-01-14_MariaDB_Installation.md)
 * [MariaDB_operation](https://github.com/parksimis/TIL/blob/master/Database/2021-01-14_MariaDB_operation.md)
 * [RDBMS](https://github.com/parksimis/TIL/blob/master/Database/2021-01-14_RDBMS.md)
 * [SELECT](https://github.com/parksimis/TIL/blob/master/Database/2021-01-15_SELECT.md)
 * [ORDERBY, GROUPBY](https://github.com/parksimis/TIL/blob/master/Database/2021-01-16_ORDERBY%2C GROUPBY.md)
-* [INSERT,UPDATE,DELETE](https://github.com/parksimis/TIL/blob/master/Database/2021-01-17_INSERT%2CUPDATE%2CDELETE.md)
+* [INSERT,UPDATE,DELETE](https://github.com/parksimis/TIL/blob/master/Database/2021-01-16_ORDERBY%2C%20GROUPBY.md)
 * [Subquery](https://github.com/parksimis/TIL/blob/master/Database/2021-01-17_Subquery.md)
 
 
