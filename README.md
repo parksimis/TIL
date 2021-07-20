@@ -53,6 +53,15 @@
 
 
 
+## - Django
+
+* [django_install](https://github.com/parksimis/TIL/blob/master/django/2021-01-28_django_install.md)
+* [web_programming](https://github.com/parksimis/TIL/blob/master/django/2021-02-02_web_programming.md)
+* [about_django](https://github.com/parksimis/TIL/blob/master/django/2021-02-03_about_django.md)
+* [MVT_pattern](https://github.com/parksimis/TIL/blob/master/django/2021-02-04_MVT_pattern.md)
+
+
+
 ## - 기타
 
 * [마크다운 기초 문법](./markdown.md)
